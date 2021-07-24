@@ -1,0 +1,42 @@
+// SECCION TITULO (ZONA DERECHA)
+.section-titulo {
+    width: 29%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    left: 62rem;
+    top: -25rem;
+    position: relative;
+    h1 {
+        font-family: $font-pt-mono;
+        font-weight: $ft-regular;
+        font-size: $fs-xxx-large;
+        color: $black;
+        padding-left: 70px;
+    }
+    h2 {
+        font-family: $font-roboto;
+        font-weight: $ft-light;
+        font-size: $fs-large;
+        color: $black;
+        padding-left: 70px;
+    }
+}
+
+// SECCTION VEN A CONOCERNOS
+.section-conocernos {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    top: 1rem;
+    left: -20rem;
+    position: relative;
+    width: 18rem;
+    padding-bottom: 2rem;
+    h2 {
+        font-family: $font-roboto;
+        padding-bottom: 1rem;
+    }
+}

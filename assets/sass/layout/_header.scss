@@ -1,0 +1,24 @@
+.header {
+    width: 63rem;
+    height: 31rem;
+    display: inline-flex;
+    .header__img {
+        // display: contents;
+        img {
+            width: 100%;
+        }
+        .header__recuadro-inf {
+            width: 468px;
+            height: 136px;
+            position: relative;
+            background-color: $white;
+            display: inline-flex;
+            flex-wrap: nowrap;
+            align-content: flex-start;
+            justify-content: flex-end;
+            align-items: center;
+            top: -8rem;
+            left: 34rem;
+        }
+    }
+}

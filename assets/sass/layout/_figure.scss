@@ -1,0 +1,27 @@
+.figure-naranja {
+    width: 7rem;
+    height: 7rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 28rem;
+    right: 16rem;
+    background-color: $naranjo;
+    z-index: 1;
+    i {
+        color: $white;
+        font-size: $fs-xxx-large;
+    }
+}
+
+.figure-amarilla {
+    width: 7rem;
+    height: 7rem;
+    display: inline-flex;
+    position: absolute;
+    top: 30rem;
+    right: 15rem;
+    background-color: $amarillo;
+    z-index: -1;
+}

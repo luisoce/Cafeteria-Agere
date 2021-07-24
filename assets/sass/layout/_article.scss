@@ -1,0 +1,46 @@
+.article-bg-azul {
+    width: 30rem;
+    height: 14rem;
+    background-color: $blue;
+    display: inline-flex;
+    left: 34rem;
+    position: absolute;
+}
+
+.article-bg-maps {
+    width: 26rem;
+    height: 13rem;
+    display: inline-flex;
+    left: 30rem;
+    top: 38.5rem;
+    position: absolute;
+    img {
+        width: 26rem;
+        height: auto;
+    }
+    // background-image: url('../../img/img-4.png');
+}
+
+.article-cafetera {
+    width: 17rem;
+    height: 15rem;
+    display: inline-flex;
+    position: absolute;
+    right: 4rem;
+    img {
+        width: 100%;
+    }
+}
+
+.article-grano-cafe {
+    width: 6rem;
+    height: 9rem;
+    display: inline-flex;
+    position: absolute;
+    right: 19rem;
+    img {
+        width: 6rem;
+        height: 9rem;
+        object-fit: cover;
+    }
+}
